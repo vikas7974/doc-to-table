@@ -1,0 +1,82 @@
+/* UploadForm.css */
+.drag-drop-area {
+  border: 2px dashed #4A90E2;
+  padding: 50px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f5f9ff;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.drag-drop-area.active {
+  background-color: #d0ebff;
+}
+
+.drag-drop-area p {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th {
+  background-color: #4A90E2;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
